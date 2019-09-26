@@ -11,13 +11,19 @@ body {
 }
 
 .box-1 {
-  background-color: aquamarine;
+  background-color: rgb(93, 206, 168);
+  border-color: green;
+  color: #7a0c5f;
 }
 
 .box-2 {
-  background-color: brown;
+  background-color: rgb(194, 50, 50);
+  border-color: gray;
+  color: rgb(246, 239, 247);
 }
 
 .box-3 {
-  background-color: bisque;
+  background-color: rgb(199, 121, 25);
+  border-color: blue;
+  color: rgb(223, 19, 19);
 }
