@@ -103,15 +103,30 @@
 
     <br><br>
     <label for="State">*State:</label>
-    <input type="state"
-        id="State"required>
-    <select id="--State--">
+    <select name="State">
         <option value="--State--">--State--</option>
-        <option value="Austria">Austria</option>
+        <option value="AU">Austria</option>
         <option value="UK">UK</option>
-        <option value="Korea">Korea</option>
-        <option value="Thailand">Thailand</option>
-    </select>
+        <option value="KR">Korea</option>
+        <option value="TH">Thailand</option>
+    </select> 
+
+    <br><br>
+
+    <label for="Postcode">*Postcode:</label>
+    <input type="postcode"
+        id="Postcode"
+        placeholder="Postcode"
+        required>
+    <br><br>
+    <input type="checkbox" 
+        name="GDPR" 
+        id="GDPR">
+    <label for="GDPR">GDPR generic consent?</label>
+
+    <br><br>
+    <button type="submit">Create Account</button>
+    <button type="submit">Reset</button>
     
 </body>
 </html>
