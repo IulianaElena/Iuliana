@@ -1,0 +1,102 @@
+/* don't touch this */
+.pane {
+  width: 38%; 
+  float: left; 
+  border: 1px solid #000;
+  padding: 5px;
+  margin-right: 20px;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+/* don't touch this */
+
+.pane-long .heading {
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-color: red;
+
+  padding-top: 10px;
+  padding-right: 11px;
+  padding-bottom: 10px;
+  padding-left: 11px;
+
+  border-width: 1px; 
+  border-style: dashed; 
+  border-color: green;
+}
+
+.pane-long .container p {
+  border-width: 1px; 
+  border-style: solid; 
+  border-color: royalblue;
+
+  margin-top: 11px;
+  margin-right: 22px;
+  margin-bottom: 13px;
+  margin-left: 15px;
+
+  padding-top: 8px;
+  padding-right: 8px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-color: lawngreen;
+}
+
+.pane-long .container .para {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: darkblue;
+
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+.pane-long .container .short-para {
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+  text-decoration-color: magenta;
+
+  width: 75%;
+
+  margin-top: 11px;
+  margin-right: auto;
+  margin-bottom: 11px;
+  margin-left: auto;
+
+  border-width: 1px; 
+  border-style: solid; 
+  border-color: blueviolet;
+
+  
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.pane-long .anchor-list li a {
+  text-decoration-line: overline;
+  text-decoration-style: solid;
+  text-decoration-color: lightcoral;
+
+  margin-top: 5px;
+  margin-bottom: 5px;
+  
+
+  padding-top: 2px;
+  padding-right: 4px;
+  padding-bottom: 5px;
+  padding-left: 9px;
+}
+
+.pane-long .list li {
+  text-decoration-line: line-through;
+  text-decoration-style: double;
+  text-decoration-color: brown;
+}
+

@@ -1,0 +1,134 @@
+/* don't touch this */
+.pane {
+  width: 38%; 
+  float: left; 
+  border: 1px solid #000;
+  padding: 5px;
+  margin-right: 20px;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+/* don't touch this */
+
+.pane-long .heading {
+  border-color: red; 
+  border-width: 1px;
+  border-style: dashed;
+
+  padding-top: 5px; 
+  padding-right: 5px;
+  padding-bottom: 5px; 
+  padding-left: 15px;
+}
+
+.pane-long .container {
+  border-color: gray;
+  border-width: 2px;
+  border-style: solid;
+
+  margin-top: 18px;
+  margin-right: 22px;
+  margin-bottom: 18px;
+  margin-left: 22px; 
+
+  padding-top: 8px; 
+  padding-right: 8px; 
+  padding-bottom: 8px; 
+  padding-left: 8px;
+}
+
+.pane-long .para {
+  border-width: 1px; 
+  border-style: dotted; 
+  border-color: red;
+
+  padding-top: 3px;
+  padding-right: 3px; 
+  padding-bottom: 3px; 
+  padding-left: 3px;
+}
+
+.pane-long .short-para {
+  border-width: 1px; 
+  border-style: solid; 
+  border-color: wheat;
+
+  width: 50%; 
+  margin-top: 15px;
+  margin-right: auto; 
+  margin-bottom: 15px; 
+  margin-left: auto;
+
+  padding-top: 8px;
+  padding-right: 8px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+}
+
+.pane-long .container p {
+  border-width: 2px; 
+  border-style: dashed; 
+  border-color: brown;
+
+  padding-top: 5px;
+  padding-right: 2px;
+  padding-bottom: 5px;
+  padding-left: 2px;
+}
+
+.pane-long .anchor-list {
+  border-width: 1px; 
+  border-style: solid; 
+  border-color: royalblue;
+
+  overflow: hidden;
+
+  padding-top: 12px;
+  padding-bottom: 6px;
+}
+
+.pane-long .anchor-list li {
+  border-width: 1px; 
+  border-style: dashed; 
+  border-color: green;
+
+  float: left;
+
+  padding-right: 5px;
+  padding-left: 5px;
+
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.pane-long .list li {
+  border-width: 2px; 
+  border-style: dotted; 
+  border-color: blueviolet;
+
+  margin-top: 2px;
+  margin-right: 25%;
+  margin-bottom: 8px;
+  margin-left: 15px;
+
+  padding-top: 3px;
+  padding-right: 3px;
+  padding-bottom: 3px;
+  padding-left:3px;
+}
+
+
+margin-top: 
+margin-right: 
+margin-bottom: 
+margin-left: 
+
+padding-top: 
+padding-right: 
+padding-bottom: 
+padding-left:
+
+
+

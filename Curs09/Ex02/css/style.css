@@ -1,0 +1,23 @@
+.stage {
+  width: 80%;
+  height: 300px;
+  border: 1px solid #000;
+  margin: 25px 0;
+  position: relative;
+
+  display: flex;
+}
+
+.stage .title {
+  position: absolute;
+  top: 5px; 
+  right: 5px
+}
+
+.item {
+  width: 25px;
+  height: 25px;
+  background: #000;
+  border: 1px solid red;
+}
+
