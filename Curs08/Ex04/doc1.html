@@ -4,20 +4,20 @@
 <head>
 
   <title>Positioning</title>
-  <link href="css/style.css" rel="stylesheet">
+  <link href="css/style1.css" rel="stylesheet">
 </head>
 
 <body>
-  <nav>
+  <nav class="abs-nav">
     <a href="#water" title="Apa">Apa</a>
     <a href="#acid" title="Acid">Acid Sulfuric</a>
     <a href="#ozone" title="Ozon">Ozon</a>
   </nav>
   <div class="container" id="water">
     <p>
-      Apa este formata din doi atomi de hidrogen 
+      <span class="legend">Apa</span> este formata din doi atomi de hidrogen 
       si o molecula de oxigen.<br>
-      Formula sa chimica este H2O.
+      Formula sa chimica este H<span class="formula-sub">2</span>O.
     </p>
   </div>
 
@@ -48,10 +48,10 @@
 
   <div class="container" id="acid">
     <p>
-      Acidul sulfuric cunoscut ca si vitriol, este format din 
+      <span class="legend">Acidul sulfuric</span> cunoscut ca si vitriol, este format din 
       2 atomi de hidrogen, 4 atomi de oxigen si o 
       molecula de sulf<br>
-      Formula sa chimica este H2SO4.
+      Formula sa chimica este H<span class="formula-sub">2</span>SO4.
     </p>
   </div>
 
@@ -82,9 +82,17 @@
 
   <div class="container" id="ozone">
     <p>
-      Ozonul este o molecula formata din 3 atomi de oxigen.<br>
-      Formula sa chimica este: O3.
+      <span class="legend">Ozonul</span> este o molecula formata din 3 atomi de oxigen.<br>
+      Formula sa chimica este: O<span class="formula-sub">3</span>.
     </p>
   </div>
 
+  <nav class="sticky-nav">
+    <ul>
+      <li><a href="water" title="Apa">Apa</a></li>
+      <li><a href="acid" title="Acid Sulfuric">Acid Sulfuric</a></li>
+      <li><a href="ozone" title="Ozon">Ozon</a></li>
+    </ul>
+  </nav>
 </body>
+</html>

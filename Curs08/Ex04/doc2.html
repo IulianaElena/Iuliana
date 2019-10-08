@@ -4,20 +4,20 @@
 <head>
 
   <title>Positioning</title>
-  <link href="css/style.css" rel="stylesheet">
+  <link href="css/style2.css" rel="stylesheet">
 </head>
 
 <body>
-  <nav>
+  <nav class="abs-nav">
     <a href="#pythagora" title="Teoria lui Pitagora">Teoria lui Pitagora</a>
     <a href="#circle" title="Suprafata Cercului">Suprafata Cercului</a>
     <a href="#squares" title="Suma patratelor">Suma patratelor</a>
   </nav>
   <div class="container" id="pythagora">
     <p>
-      Teoria lui Pitagora este fundamentala in geometria euclidiana.<br>
+      <span class="legend">Teoria lui Pitagora</span> este fundamentala in geometria euclidiana.<br>
       Aceasta sustine ca suma patratelor laturilor unui triunghi este egala cu patratul ipotenuzei.<br>
-      Formula sa este: a2+b2=c2.
+      Formula sa este: a<span class="formula-sup">2</span>+b<span class="formula-sup">2</span>=c<span class="formula-sup">2</span>.
     </p>
   </div>
 
@@ -48,8 +48,8 @@
 
   <div class="container" id="circle">
     <p>
-      Suprafata cercului se calculeaza stiind raza acestuia si valoarea lui π.<br>
-      Formula sa este πr2.
+      <span class="legend">Suprafata cercului</span> se calculeaza stiind raza acestuia si valoarea lui π.<br>
+      Formula sa este πr<span class="formula-sup">2</span>.
     </p>
   </div>
 
@@ -80,9 +80,17 @@
 
   <div class="container" id="ozone">
     <p>
-      Suma a doua patrate se calculeaza folosind urmatoarea formula:<br>
-      A2+B2=(A+B)2 - 2AB
+      <span class="legend">Suma</span> a doua patrate se calculeaza folosind urmatoarea formula:<br>
+      A<span class="formula-sup">2</span>+B<span class="formula-sup">2</span>=(A+B)<span class="formula-sup">2</span> - 2<span class="formula-sup"></span>AB</span>
     </p>
   </div>
+
+  <nav class="sticky-nav">
+    <ul>
+      <li><a href="pythagora" title="Teoria lui Pitagora">Teoria lui Pitagora</a></li>
+      <li><a href="circle" title="Suprafata cercului">Suprafata cercului</a></li>
+      <li><a href="square" title="Suma">Suma</a></li>
+    </ul>
+  </nav>
 
 </body>
