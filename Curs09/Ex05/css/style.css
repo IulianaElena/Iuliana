@@ -6,20 +6,48 @@
 
 .box-red {
   background-color: red;
+  transition: width 3s ease-in;
+}
+
+.box-red:hover {
+  width: 120px;
 }
 
 .box-green {
   background-color: green;
+  transition: transform 5s ease;
+}
+
+.box-green:hover {
+  transform: rotate(360deg) scale(1.2);
 }
 
 .box-purple {
   background-color: purple;
+  transition: width 4s ease, height 4s ease;
+}
+
+.box-purple:hover {
+  width: 100px;
+  height: 100px;
 }
 
 .box-brown {
   background-color: brown;
+  transition: transform 4s ease-in;
+}
+
+.box-brown:hover {
+  transform: rotate(-180deg);
+  width: -10px;
+  height: -10px;
 }
 
 .box-yellow {
   background-color: yellow;
+  transition: transform 3s ease-in-out;
+}
+
+.box-yellow:hover {
+  transform: scale(2);
 }
