@@ -1,0 +1,44 @@
+ul, ol {
+  list-style-type: none;
+}
+
+.pane-short .heading {
+  margin: 10px 6px 10px 6px;
+}
+
+.pane-short .container {
+  padding: 15px 8px 12px 4px;
+}
+
+.pane-short .para {
+  padding: 10px;
+}
+
+.pane-short .short-para {
+  width: 65%;
+  border: 1px solid gold;
+  margin: 25px 70px;
+
+  padding: 7px 7px;
+}
+
+.pane-short .list {
+  padding: 0px 0px 0px 2px;
+}
+
+.pane-short .list li {
+  margin: 5px 0 10px 0px;
+}
+
+.pane-short .navigation {
+  margin: 5px 9px 5px 4px;
+}
+
+.pane-short .anchor-list {
+  margin: 0px;
+}
+
+.pane-short .anchor-list li {
+  display: inline-block;
+  margin: 0 5px;
+}

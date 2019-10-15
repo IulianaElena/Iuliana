@@ -1,1 +1,59 @@
+p b {
+  color: purple;
+}
 
+ul i {
+  text-decoration: underline;
+}
+
+h1 + h2 {
+  color: green;
+}
+
+h2 + h3 {
+  text-decoration: underline dotted red;
+  margin: 8px 0 19px 0;
+}
+
+ol ~ h3 {
+  border: 1px solid blue;
+  padding: 5px;
+}
+
+ul ~ p {
+  border: 1px dotted black;
+  padding: 20px;
+}
+
+ul > li > ul > li {
+  color: brown;
+}
+
+p i {
+  color: blue;
+}
+
+.u-line i {
+  text-decoration: underline;
+}
+
+ol + h2 {
+  text-decoration: underline;
+}
+
+.random ~ p {
+  padding: 12px 0px 12px 0;
+}
+
+.last-list ~ a {
+  color: red;
+}
+
+.my-list > li {
+  text-decoration: underline;
+}
+
+.nested > li > ul > li > a {
+  display: inline-block;
+  padding: 5px;
+}

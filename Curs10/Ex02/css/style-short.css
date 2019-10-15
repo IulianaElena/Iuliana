@@ -1,0 +1,22 @@
+.pane-short .heading {
+  border-color: red;
+  border-width: 1px;
+  border-style: dashed;
+
+  padding: 5px 5px 5px 15px;
+}
+
+.pane-short .container {
+  border-color: gray;
+  border-width: 2px;
+  border-style: solid;
+
+  margin: 20px 25px 20px 25px;
+
+  padding: 8px;
+}
+
+.pane-short .para {
+  border-width: 3px; 
+  border-style: dotted; 
+  border-color: rgb(109, 9, 9);
