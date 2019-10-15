@@ -367,15 +367,55 @@
       text-decoration: none;
   }
 
+  @font-face {
+    font-family: 'robotobold';
+    src: url('../fonts/roboto-bold-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+  
+  @font-face {
+    font-family: 'robotoitalic';
+    src: url('../fonts/roboto-italic-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+  
+  @font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
   /* cod: */
-
+  
 body {
-    color: #707070;
+  color: #707070;
+  font-family: 'robotoregular';
+}
+
+.header {
+  margin-bottom: 10px;
+}
+
+.logo {
+  text-align: center;
+}
+
+.nav-main {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 10px 0;
 }
 
 .nav-main li{
     display: inline-block;
-    margin: 0 5px; 
+    margin: 0 5px;
 }
 
 .nav-main a {
@@ -383,9 +423,34 @@ body {
     padding: 10px;
     display: block;
     border-radius: 27px;
+    font-size: 20px;
 }
 
-.nav-main a:hover {
+.nav-main a:hover,
+.nav-main a.active {
     background-color: rgb(141, 29, 29);
     color: #fff;
 }
+
+.nav-secondary {
+  text-align: center;
+}
+
+.nav-secondary ul {
+  display: inline-block;
+}
+
+.nav-secondary li {
+  display: inline-block;
+  margin: 0 5px;
+}
+.nav-secondary a {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.nav-secondary a:hover,
+.nav-secondary a.active {
+  background-color: rgb(129, 25, 25);
+}
+
