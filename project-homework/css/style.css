@@ -399,10 +399,35 @@ body {
   font-family: 'robotoregular';
 }
 
-.header-top-container {
+.container {
   width: 1280px;
   margin: 0 auto;
   max-width: 100%;
+}
+
+.cart {
+  float: right;
+  margin: 0 auto;
+  position: relative;
+  align-content: top;
+}
+
+#button {
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin:2px 1px;
+  padding: 1px;
+  background-color: red;
+}
+
+#avatar {
+  max-width: 100%;
+  float: right;
+  
 }
 
 .header {
