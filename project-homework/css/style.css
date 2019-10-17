@@ -405,11 +405,12 @@ body {
   max-width: 100%;
 }
 
-.cart {
+.header-top-cart {
   float: right;
   margin: 0 auto;
   position: relative;
-  align-content: top;
+  align-content: space-between;
+  top: auto;
 }
 
 #button {
@@ -422,6 +423,7 @@ body {
   margin:2px 1px;
   padding: 1px;
   background-color: red;
+  position: absolute;
 }
 
 #avatar {
