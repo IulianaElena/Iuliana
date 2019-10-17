@@ -1,0 +1,67 @@
+.pane-short .heading {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: red;
+  
+    padding: 10px 11px;
+  
+    border-width: 1px; 
+    border-style: dashed; 
+    border-color: green;
+  }
+
+  .pane-short .container p {
+    border-width: 1px; 
+    border-style: solid; 
+    border-color: royalblue;
+  
+    margin: 12px 21px 16px 14px;
+  
+    padding: 8px 6px;
+  
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: lawngreen;
+  }
+
+  .pane-short .container .para {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: darkblue;
+  
+    margin: 15px;
+  }
+
+  .pane-short .container .short-para {
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: magenta;
+  
+    width: 75%;
+  
+    margin: 3px auto;
+  
+    border-width: 1px; 
+    border-style: solid; 
+    border-color: blueviolet;
+  
+    
+    padding: 10px;
+  }
+
+  .pane-short .anchor-list li a {
+    text-decoration-line: overline;
+    text-decoration-style: solid;
+    text-decoration-color: lightcoral;
+  
+    margin: 1px;
+
+    padding: 8px 8px 10px 10px;
+  }
+  
+  .pane-short .list li {
+    text-decoration-line: line-through;
+    text-decoration-style: double;
+    text-decoration-color: brown;
+  }
+  
