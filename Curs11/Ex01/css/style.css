@@ -24,23 +24,97 @@ body {
 
 .box-4 {
   background-color: purple;
+  color: red;
 }
 
 .box-5 {
   background-color: lightpink;
 }
 
+body > h1 {
+  display: none;
+}
+
+body > h2 {
+  display: none;
+}
+
+body > h3 {
+  display: block;
+  color: black;
+}
 
 @media (max-width: 576px) {
+  .box-2 {
+    display: none;
+  }
 
+  .box-1 {
+    display: none;
+  }
+
+  body {
+    padding: 15px;
+  }
 }
 
 @media (max-width: 768px) {
-
+  .box-5 {
+    color: white;
+  }
+  .box-3 {
+    border-color: green;
+  }
 }
 
 @media (max-width: 992px) {
+  .box-4 {
+    display: none;
+    color: black;
+    }
 
+  .box-3 {
+    display: none;
+    }
+
+    .box-2 {
+      border-color: white;
+      text-decoration-color: white;
+    }
+  }
+
+@media (max-width: 1200px) {
+  .box-5 {
+    display: none;
+  }
 }
 
+@media (min-width: 600px) and (max-width: 1200px) {
+  body > h1 {
+    display: block;
+  }
+}
 
+@media (min-width: 500px) and (max-width: 1000px) {
+  body > h2 {
+    display: block;
+  }
+}
+
+@media (max-width: 576px) {
+  body > h3 {
+    display: none;
+  }
+}
+
+@media (min-width: 1000px) {
+  body h3 {
+    color: red;
+  }
+}
+
+@media (min-width: 1200px) {
+  body > h3 {
+   display: none;
+  }
+}
