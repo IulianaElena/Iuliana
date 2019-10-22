@@ -1,6 +1,16 @@
 /* add code here */
 
+#header h1 {
+  color: green;
+  text-decoration: underline;
+  padding: 5px;
+}
 
+p {
+  font-size: 25px;
+  font-style: italic;
+  color: purple;
+}
 
 /* add code here */
 
@@ -13,7 +23,7 @@ h1 {
   color: blue;
 }
 
-p {
+#container p {
   text-decoration: underline;
 }
 
