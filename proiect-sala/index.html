@@ -7,7 +7,7 @@
 </head>
 <body>
   <header class="header"> 
-    <div class="header-top container">
+    <div class="header-top">
       <p>Toll Free 0710 000 000</p>
     </div>
 
@@ -60,7 +60,7 @@
 
   <main class="content">
     <section class="carousel">
-        <div>
+        <div class="container">
           <img src="images/banners/banner02.jpg" alt="Banner">
         </div>
     </section>
@@ -70,10 +70,10 @@
       <div class="filter container">
         <form class="filter-form">
           <select name="" id="">
-          <option value=""> -- Select Category --</option>
-          <option value="glamoursuits">Glamour Suits</option>
-          <option value="weddingsuits">Wedding Suits</option>
-          <option value="officesuits">Office Suits</option>
+            <option value=""> -- Select Category --</option>
+            <option value="glamoursuits">Glamour Suits</option>
+            <option value="weddingsuits">Wedding Suits</option>
+            <option value="officesuits">Office Suits</option>
           </select>
 
           <select class="" name="" id="">
@@ -92,7 +92,7 @@
       <!-- end .filter-fit-finder -->
 
       <ul class="filter-swatches">
-        <li><a href="" title="Rosu" class="swatch swatch-01">Rosu</a></li>
+        <li><a href="" title="Rosu" class="swatch swatch-01 active">Rosu</a></li>
         <li><a href="" title="Rosu" class="swatch swatch-02">Rosu</a></li>
         <li><a href="" title="Rosu" class="swatch swatch-03">Rosu</a></li>
         <li><a href="" title="Rosu" class="swatch swatch-04">Rosu</a></li>
@@ -118,9 +118,9 @@
     <!-- end .content-header -->
   
 
-    <main class="product-list">
-      <header>
-        <h1><span>Office</span>Suits</h1>
+    <main class="content-main">
+      <header class="container">
+        <h1><span>Office</span> Suits</h1>
 
         <p>
           Accomplish new achievements with a bold new style from the brilliant collection of men’s designer suits.
@@ -129,12 +129,12 @@
         </p>
       </header>
 
-      <section>
+      <section class="product-list container">
         <article class="product-tile">
           <div class="product-main">  
             <img src="images/products/01.jpg" alt="Product 01">
 
-            <div class="product-badge">%</div>
+            <div class="product-badge large">%</div>
           <!-- .product-main -->
 
             <div class="product-details">
@@ -208,22 +208,21 @@
 
             <div class="product-badge">new entry</div>
           <!-- .product-main -->
+          </div> 
 
-            <div class="product-details">
-              <h5 class="product-title">
-                <span>Thread Affair</span>
-                <span>Traveller</span>
-                Suit
-              </h5>
-              <h6 class="product-subtitle">
-                  London fit-Semi-slim  
-              </h6>
+          <div class="product-details">
+            <h5 class="product-title">
+              <span>Thread Affair</span>
+              <span>Traveller</span>
+              Suit
+            </h5>
+            <h6 class="product-subtitle">
+                London fit-Semi-slim  
+            </h6>
 
-              <div class="product-pricing">
-                <p><span>new entry</span></p>
-                <p>USD <span>399.00</span></p>
-              </div>
-              <!-- .product-pricing -->
+            <div class="product-pricing">
+              <p><span>new entry</span></p>
+              <p>USD <span>399.00</span></p>
             </div>
 
             <div class="product-controls">
@@ -232,8 +231,14 @@
                 title="Add to Cart"
               >Add to Cart</a>
             </div>
+            
+          </div> 
+            <!-- .product-pricing -->
+          
 
-          </div>
+          
+
+          
           <!-- .product-details -->
         </article>
         <!-- .product-tile -->
@@ -242,7 +247,7 @@
           <div class="product-main">  
             <img src="images/products/04.jpg" alt="Product 04">
 
-            <div class="product-badge">%</div>
+            <div class="product-badge large">%</div>
           <!-- .product-main -->
 
             <div class="product-details">
@@ -278,7 +283,7 @@
           <div class="product-main">  
             <img src="images/products/05.jpg" alt="Product 05">
 
-            <div class="product-badge">%</div>
+            <div class="product-badge large">%</div>
           <!-- .product-main -->
 
             <div class="product-details">
@@ -372,7 +377,7 @@
       <!-- .newsletter -->
     </main>
 
-    <footer class="payment">
+    <footer class="payment container">
       <h1 class="payment-header">How to <span>Pay</span></h1>
 
       <ul class="payment-list">
@@ -393,47 +398,48 @@
 
   <footer class="footer">
     
-    <section class="footer-top">
+    <section class="footer-top container">
       <nav>
         <h5>INFORMATION</h5>
         <ul>
-          <li><a href="" title="Contact us"></a>Contact us</li>
-          <li><a href="" title="Track my order"></a>Track my order</li>
-          <li><a href="" title="Shipping"></a>Shipping</li>
-          <li><a href="" title="Free Returns*"></a>Free Returns*</li>
-          <li><a href="" title="My account"></a>My account</li>
+          <li><a href="" title="Contact us">Contact us</a></li>
+          <li><a href="" title="Track my order">Track my order</a></li>
+          <li><a href="" title="Shipping">Shipping</li>
+          <li><a href="" title="Free Returns*">Free Returns*</a></li>
+          <li><a href="" title="My account">My account</a></li>
         </ul>
       </nav>
 
       <nav>
         <h5>SERVICES</h5>
         <ul>
-          <li><a href="" title="Ship to store"></a>Ship to store</li>
-          <li><a href="" title="Gift card"></a>Gift card</li>
-          <li><a href="" title="Online only"></a>Online only</li>
-          <li><a href="" title="Tips & tricks"></a>Tips & tricks</li>
-          <li><a href="" title="Home"></a>Home</li>
+          <li><a href="" title="Ship to store">Ship to store</a></li>
+          <li><a href="" title="Gift card">Gift card</a></li>
+          <li><a href="" title="Online only">Online only</a></li>
+          <li><a href="" title="Tips & tricks">Tips & tricks</a></li>
+          <li><a href="" title="Home">Home</a></li>
         </ul>
       </nav>
 
       <nav>
         <h5>LOYALTY PROGRAMS</h5>
         <ul>
-          <li><a href="" title="Sign up to The Simons"></a>Sign up to The Simons</li>
-          <li><a href="" title="My account"></a>My account</li>
-          <li><a href="" title="Conditions"></a>Conditions</li>
-          <li><a href="" title="FAQ"></a>FAQ</li>
+          <li><a href="" title="Sign up to The Simons">Sign up to The Simons</a></li>
+          <li><a href="" title="My account">My account</a></li>
+          <li><a href="" title="Conditions">Conditions</a></li>
+          <li><a href="" title="FAQ">FAQ</a></li>
         </ul>
       </nav>
 
       <nav>
         <h5>CAREERS</h5>
         <ul>
-          <li><a href="" title="About US"></a>About US</li>
-          <li><a href="" title="Our Story"></a>Our Story</li>
-          <li><a href="" title="Art & Culture"></a>Art & Culture</li>
-          <li><a href="" title="Our private labels"></a>Our private labels</li>
-          <li><a href="" title="Stores"></a>Stores</li>
+          <li><a href="" title="About US">About US</a></li>
+          <li><a href="" title="Our Story">Our Story</a></li>
+          <li><a href="" title="Our Story">Our Story</a></li>
+          <li><a href="" title="Art & Culture">Art & Culture</a></li>
+          <li><a href="" title="Our private labels">Our private labels</a></li>
+          <li><a href="" title="Stores">Stores</a></li>
         </ul>
       </nav>
 
@@ -445,7 +451,7 @@
         </ul>
       </nav>
 
-      <div>
+      <div class="store-contact">
           <h5><span>THREAD AFFAIR</span> MILANO</h5>
           <p>Largo Augusto 3, Milano, 20122, Milano, IT
           Tel: <a href="tel:0039 02 760 003 66" title="Call us">0039 02 760 003 66</a>
