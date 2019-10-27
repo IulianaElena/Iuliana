@@ -462,8 +462,38 @@ body {
   background-color: rgb(129, 25, 25);
 }
 
+.content .carousel {
+  background: url('../images/banners/banner02.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.content .carousel .container {
+  min-height: 570px;
+  color: white;
+  position: relative;
+}
+
+.content .carousel h1 {
+  font-family: 'robotobold';
+  font-size: 75px;
+  margin: 115px 0 0 0;
+  float: right;
+}
+
+.content .carousel .tagline {
+  clear: both;
+  text-align: right;
+}
+
+.content .carousel .small-print {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-align: right;
+}
+
 .content-header {
-  margin: 30px 0 0 0;
+  margin: 50px 0 0 0;
 }
 
 .filter-form {
@@ -528,13 +558,26 @@ body {
   width: 50px;
   height: 50px;
   display: block;
- 
 }
 
 .swatch-01::after {
+  background: url('../images/swatches/9ch6ixdy.jpg') no-repeat center center;
+}
 
+.swatch-02::after {
+  background: url('../images/swatches/xuuv6wx8.jpg') no-repeat center center;
+}
+
+.swatch-03::after {
+  background: url('../images/swatches/gc5j72yj.jpg') no-repeat center center;
+}
+
+.swatch-04::after {
   background: url('../images/swatches/70yz9xts.jpg') no-repeat center center;
-  
+}
+
+.swatch-05::after {
+  background: url('../images/swatches/ec6vtojh.jpg') no-repeat center center;
 }
 
 .content-main {
@@ -701,6 +744,22 @@ body {
 .footer-top nav {
   float: left;
   margin-left: 60px;
+}
+
+.newsletter form p {
+  width: 1280px;
+  height: 236px;
+  display: inline-block;
+  border: 1px solid gray;
+  background-color: gray;
+  color: white;
+}
+
+.newsletter span {
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-size: 55px;
+  font-family: 'robotobold';
 }
 
 .customer-support {
