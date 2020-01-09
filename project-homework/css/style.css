@@ -785,17 +785,20 @@ body {
   margin-left: 60px;
 }
 
+.newsletter {
+  background-color: rgb(44, 41, 41);
+}
+
 .newsletter form p {
   width: 1280px;
   height: 236px;
   display: inline-block;
-  border: 1px solid gray;
-  background-color: gray;
   color: white;
-}
-
-.newsletter {
-  background: url('../images/decorations/mail-send.png');
+  align-content: flex-start;
+  flex-wrap: wrap;
+  width: 170px;
+  height: 25px;
+  margin: 0 0 0  50px;
 }
 
 .newsletter span {
@@ -803,6 +806,21 @@ body {
   text-transform: uppercase;
   font-size: 55px;
   font-family: 'robotobold';
+  text-align: center;
+  margin: 0 0 0 15px;
+}
+
+.newsletter .container {
+  display: inherit;
+  width: 425px;
+  height: 70px;
+  align-content: center;
+  color: white;
+  background-color: transparent;
+}
+
+.newsletter button {
+  display: inline-block;
 }
 
 .customer-support {
